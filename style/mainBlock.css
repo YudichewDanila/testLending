@@ -1,0 +1,194 @@
+.mainBlock{
+    width: 100%;
+    background-color: black;
+}
+
+.mainBlock .mainBlock_wrapper{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.mainBlock_content{
+    display: flex;
+}
+
+.mainBlock_img{
+    background-image: url('/assets/img/background\ wall.png');
+    min-width: 40%;
+    height: 90%;
+}
+.listItem{
+    width: 50%;
+    margin-top: 58px;
+}
+.listItem h2{
+width: 526px;
+height: 44px;
+color: #416DF4;
+font-family: Roboto Condensed;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.listItem_buttons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 23px;
+}
+.listItem_buttons button{
+margin-left: 1%;
+border:solid 1px #671D00;
+color: #671D00;
+background-color:#671d0000;
+text-align: center;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.listItem_items{
+    max-width: 632px;
+}
+.listItem_item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 74px;
+    border-radius: 1px;
+    border: 1px solid rgba(103, 29, 0, 0.48);
+    padding-left: 2%;
+    margin-top: 1px;
+}
+
+.listItem_nameitem{
+margin-left: 2%;
+width: 29%;
+color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.listItem_freeServer{
+    margin-left: 15%;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+.listItem_countDay{
+min-width: 20%;
+margin-left: 15%;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.listItem_boxBay{
+    display: flex;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+.listItem_baybtn{
+
+    margin-top: 20%;
+    margin-left:-30%;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.listItem_baybtn p{
+    height: 10px;
+}
+.listItem_baybtn button{
+    width: 180px;
+    height: 40px;
+    border-radius: 7px;
+    background: #FCFF00;
+    color: #000;
+    border:none;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 1056px){
+    .mainBlock_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 759px){
+    .mainBlock .mainBlock_wrapper{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .listItem{
+        width: 80%;
+        margin-top: 58px;
+    }
+    .listItem h2{
+        width: 80%;
+        height: 4%;
+        color: #416DF4;
+        font-family: Roboto Condensed;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+   
+}
+
+@media screen and (max-width: 435px){
+    .mainBlock .mainBlock_wrapper{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .listItem{
+        width: 90%;
+    }
+
+    .listItem_boxBay{
+        flex-direction: column;
+    }
+    .listItem_baybtn{
+        margin-left: 0%;
+    }
+    .listItem_items{
+        width: 99%;
+    }
+    .listItem_item{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 70%;
+        border-radius: 1px;
+        border: 1px solid rgba(103, 29, 0, 0.48);
+        padding-left: 2%;
+        margin-top: 1px;
+    }
+}
